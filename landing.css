@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#header{
+width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10%;	
+  text-align: center;
+  color: #6CF;
+  font-size: 36px;
+  font-family: "Gill Sans MT", "Gill Sans", verdana, arial, helvetica, sans-serif;
+}
+
+#bdy{
+
+position: relative;	
+bottom: 0;
+height: 90%;
+font-family: 'Pacifico', cursive;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+
+#left{
+	width: 50%;
+	position: relative;
+	right: 20px;
+	}
+
+#right{
+width: 50%;
+
+float: right;
+font-size:40px;
+
+
+}
+
+#nentry {
+
+position:absolute;
+	
+font-size:40px;
+right: 43px;
+top:340px;
+	
+}
+
+#nuser {
+font-size:40px;
+position:relative;
+float: right;	
+right: 43px;
+top:150px;
+margin-top: 100px;
+clear: both; 
+}
+
+
+#bilbo {
+position:relative;
+
+margin-left: 2cm;
+top:40px;	
+}
+
+a {
+text-decoration: none;
+cursor:pointer;
+color:#000;	
+}
